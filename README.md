@@ -3,7 +3,7 @@ Nama : Dian Syamdova
 NIM : 20210801052
 Teknik Informatika
 
-##JARINGAN KOMPUTER LANJUT
+## JARINGAN KOMPUTER LANJUT
 
 Pengenalan Jaringan Komputer Lanjutan
 Membahas model komunikasi jaringan, yaitu model OSI dan TCP/IP yang menjadi dasar pengiriman data antar perangkat dalam jaringan. Mahasiswa juga belajar mengenai perangkat dasar dalam jaringan seperti router, switch, dan hub. pembahasan protokol jaringan yang digunakan untuk komunikasi antar perangkat. Protokol utama yang dibahas adalah TCP/IP, beserta protokol aplikasi seperti HTTP, FTP, dan DNS. Juga dijelaskan protokol transport TCP dan UDP serta pengalamatan IP (IPv4 dan IPv6), termasuk cara melakukan subnetting untuk membagi jaringan menjadi sub-jaringan yang lebih kecil.
@@ -21,7 +21,7 @@ Sekarang, misalkan kita memiliki jaringan lokal (LAN) di sebuah kantor dengan be
 •	Komputer A memiliki alamat MAC 00:14:22:01:23:45
 •	Komputer B memiliki alamat MAC 00:14:22:01:23:46
 
-##Subnetting
+## Subnetting
 Subnetting adalah proses membagi sebuah jaringan IP menjadi beberapa bagian yang lebih kecil atau subnet. Tujuan utama dari subnetting adalah untuk mengoptimalkan penggunaan alamat IP dalam jaringan dan meningkatkan efisiensi pengelolaan jaringan. Dengan subnetting, satu jaringan besar dapat dibagi menjadi beberapa jaringan lebih kecil, yang masing-masing memiliki rentang alamat IP sendiri.
 Subnetting dilakukan dengan cara memodifikasi Subnet Mask yang digunakan untuk menentukan batas-batas jaringan dan host dalam alamat IP. Setiap alamat IP terdiri dari dua bagian utama: bagian network (jaringan) dan bagian host (perangkat).
 Misalnya, kita memiliki jaringan dengan alamat IP 192.168.1.0 dan subnet mask 255.255.255.0. Subnet mask 255.255.255.0 menunjukkan bahwa 24 bit pertama digunakan untuk jaringan, dan 8 bit sisanya untuk host. Jika kita ingin membagi jaringan ini menjadi 2 subnet, kita bisa meminjam 1 bit dari bagian host untuk digunakan sebagai bagian jaringan.
